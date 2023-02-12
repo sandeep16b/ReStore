@@ -11,3 +11,17 @@ if that doesn't work
 
 npm install react-scripts --save
 npm start
+
+
+Branch- AddingMaterialUIStylingFramework
+Install Framewerk - Current version at this time is v6 pre-release
+    npm install @mui/material @emotion/react @emotion/styled
+
+Install the font used by Material UI - Roboto  - add the following in index.html  
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+
+Install pre-built material UI icons    
+    npm install @material-ui/icons@next
